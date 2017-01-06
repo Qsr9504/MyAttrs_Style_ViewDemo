@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAttrs_Style_ViewDemo</string>
+    <string name="footer_pic">&#xe67e;</string>
+    <string name="footer_name">组合控件 + 自定义属性 + 自定义style</string>
+</resources>

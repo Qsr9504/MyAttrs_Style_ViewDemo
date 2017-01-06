@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--此处的自定义属性的name必须和自定义的view类名一致-->
+    <declare-styleable name="MyFooterTab">
+        <attr name="footerPic" format="string"/>
+        <attr name="footerText" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此处需要注意！
+1.添加xmlns:footer="http://schemas.android.com/apk/res-auto"
+2.完整包名com.qsr.myattrs_style_viewdemo.ui.MyFooterTab
+3.使用自定义属性
+  footer:footerPic="@string/footer_pic"
+  footer:footerText="@string/footer_name"
+4.使用自定义style
+  style="@style/MyFooterTab"
+
+**如果自定义属性的name名不和类名一致，将不能使用自定义属性
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:footer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qsr.myattrs_style_viewdemo.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="自定义属性的使用:\n"/>
+    <com.qsr.myattrs_style_viewdemo.ui.MyFooterTab
+        footer:footerPic="@string/footer_pic"
+        footer:footerText="@string/footer_name"
+        android:id="@+id/myFooterView"
+        style="@style/MyFooterTab"
+        />
+</LinearLayout>
