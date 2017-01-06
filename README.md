@@ -3,7 +3,8 @@
 
 ##自定义属性步骤
 ###1.创建res/attrs.xml文件
-<resources>
+	
+	<resources>
     <!--此处的自定义属性的name必须和自定义的view类名一致-->
     <declare-styleable name="MyFooterTab">
         <attr name="footerPic" format="string"/>
@@ -16,7 +17,7 @@
 
 ###2.自定义控件在xml中引用，并使用自定义属性
 
-<com.qsr.myattrs_style_viewdemo.ui.MyFooterTab
+	<com.qsr.myattrs_style_viewdemo.ui.MyFooterTab
 	footer:footerPic="@string/footer_pic"
         footer:footerText="@string/footer_name"
         android:id="@+id/myFooterView"
